@@ -1,0 +1,208 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #121417;
+}
+
+.div {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#252d37), to(#121417));
+  background: linear-gradient(#252d37, #121417);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  height: 400px;
+}
+
+.div__star {
+  background-color: #121417;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 15px 0px 0px 40px;
+}
+
+.div__star__img {
+  padding: 2px 2px;
+}
+
+.div__description {
+  width: 310px;
+  color: white;
+  margin: 15px 15px;
+}
+
+.div__description h1 {
+  height: 20px;
+  margin: 0px;
+  font-family: "Overpass";
+  font-weight: 700;
+}
+
+.div__description p {
+  color: #7c8798;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+
+.div__description-thanks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div__description-thanks h1 {
+  margin-bottom: 15px;
+}
+
+.div__rank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div__rank__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.div__rank__content__numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #252d37;
+  color: #959eac;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+.div__rank__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 15px 15px 15px;
+  width: 320px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #fb7413;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.div__rank__button:active {
+  background-color: white;
+  color: #fb7413;
+}
+
+.div__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.div__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 25px;
+  background-color: #252d37;
+  color: #fb7413;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+  border: none;
+}
+
+input[type="radio"]:hover + label {
+  background-color: #7c8798;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #fb7413;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
